@@ -1,0 +1,130 @@
+body { 
+    font-family: 'Gugi', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background:#590d82;
+}
+h1 {
+    color: #fdea2e;
+    text-shadow: 0 0 10px #fdea2e;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 10px;
+    }
+li {
+    list-style: none;
+    color: #f70776;
+    text-shadow: 0 0 5px #f25d9c;
+    font-size: 16px;
+    line-height: 19px;
+}
+li:first-letter {
+    text-transform: capitalize;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    color: #fdea2e; 
+    background: #f70776;
+    border: #f70776;
+}
+
+.btn:hover {
+    background: #f70776;
+    box-shadow: 0 0 10px #f70776;
+    color: #fdea2e;
+    text-shadow: 0 0 15px #fdea2e; 
+}
+
+
+.footer {
+    color: #fdea2e;
+    text-shadow: 0 0 3px #f25d9c;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.liz {
+    color: #fdea2e;
+}
+
+.liz:hover {
+    text-decoration: none;
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-forecast-date {
+    color: #f70776;
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: #f25d9c;
+}
+
+
+.weather-forecast-temperatures {
+    color: #fdea2e;
+    font-size: 16px;
+}
+
+
+.weather-temperature .active {
+    color: #f70776;
+cursor: default;
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
+}
+
+.weather-forecast-temperature-max {
+    font-weight: 500;
+    text-shadow: 0 0 10px #fdea2e;
+}
+
+.weather-app {
+    padding: 20px;
+    border: 3px solid #f70776;
+    border-radius: 25px;
+    box-shadow: 0 0 50px #b61aae;
+}
+.weather-app-wrapper {
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.weahter-temperature img {
+    margin-right: 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.weather-temperature .seperator {
+    color: #f25d9c;
+}
+
+.weather-temperature strong {
+    color: #fdea2e;
+    text-shadow: 0 0 10px #fdea2e;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+
+}
