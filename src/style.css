@@ -1,25 +1,43 @@
-body { 
-    font-family: 'Gugi', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-    background:#590d82;
+a {
+    color: #f70776;
+    text-decoration: none;
 }
+
+a:hover {
+    color: #fdea2e; 
+cursor: crosshair;
+}
+
+body { 
+    background:#590d82;
+    cursor: crosshair;
+    font-family: 'Gugi', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1 {
     color: #fdea2e;
-    text-shadow: 0 0 10px #fdea2e;
     font-size: 35px;
     font-weight: 700;
     line-height: 29px;
     margin-bottom: 10px;
+    text-shadow: 0 0 10px #fdea2e;
     }
+
+    img {
+        vertical-align: bottom;
+    }
+
 li {
-    list-style: none;
     color: #f70776;
-    text-shadow: 0 0 5px #f25d9c;
     font-size: 16px;
     line-height: 19px;
+    list-style: none;
+    text-shadow: 0 0 5px #f25d9c;
 }
 li:first-letter {
     text-transform: capitalize;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -38,12 +56,11 @@ ul {
     text-shadow: 0 0 15px #fdea2e; 
 }
 
-
 .footer {
     color: #fdea2e;
     text-shadow: 0 0 3px #f25d9c;
     display: block;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     text-decoration: none;
 }
@@ -56,12 +73,17 @@ ul {
     text-decoration: none;
 }
 
+.mb-3 {
+    float: right;
+    margin-right: -55px;
+}
+
 .overview {
     margin-bottom: 20px;
 }
 
 .weather-forecast {
-    margin-top: 20px;
+    margin-top: -5px;
     text-align: center;
 }
 
@@ -78,6 +100,9 @@ ul {
     font-size: 16px;
 }
 
+.weather-temperature {
+    padding-bottom: 20px;
+}
 
 .weather-temperature .active {
     color: #f70776;
