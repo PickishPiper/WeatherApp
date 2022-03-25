@@ -23,8 +23,8 @@ h1 {
     text-shadow: 0 0 10px #fdea2e;
     }
 
-    img {
-        vertical-align: bottom;
+img {
+    vertical-align: bottom;
     }
 
 li {
@@ -94,7 +94,6 @@ ul {
     text-shadow: #f25d9c;
 }
 
-
 .weather-forecast-temperatures {
     color: #fdea2e;
     font-size: 16px;
@@ -136,7 +135,7 @@ cursor: default;
 }
 
 .weather-temperature .seperator {
-    color: #f25d9c;
+    color: #fdea2e;
 }
 
 .weather-temperature strong {
